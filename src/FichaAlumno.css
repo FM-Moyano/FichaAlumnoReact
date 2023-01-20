@@ -1,0 +1,53 @@
+.foto{
+    /* a la izquierda */
+    float: left;
+    /* margen de 10px */
+    margin: 10px;
+    /* borde de 1px */
+    border: 1px solid #ccc;
+    /* borde redondeado */
+    border-radius: 5px;
+    /* padding de 5px */
+    padding: 5px;
+    grid-column: 1;
+    background-color: bisque;
+    padding-top: 3em;
+
+}
+.foto img{
+    /* ancho de 100px */
+    /* width: 100px; */
+    /* alto de 100px */
+    height: 100px;
+}
+.datos{
+    /* a la derecha */
+    float: right;
+    /* margen de 10px */
+    margin: 10px;
+    /* borde de 1px */
+    border: 1px solid #ccc;
+    /* borde redondeado */
+    border-radius: 5px;
+    /* padding de 5px */
+    padding: 5px;
+    grid-column: 2;
+    background-color: beige;
+}
+
+/* ficha alumno en el centro con foto y datos dentro */
+.FichaAlumno{
+    /* centrado */
+    margin: 0 auto;
+    /* ancho de 500px */
+    width: 500px;
+    /* borde de 1px */
+    border: 1px solid #ccc;
+    /* borde redondeado */
+    border-radius: 5px;
+    /* padding de 5px */
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: aquamarine;
+}
